@@ -1,0 +1,78 @@
+/* public/css/app.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for navigation bar */
+nav {
+    background-color: #35495e;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for content */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    line-height: 1.5;
+}
+
+/* Styling for projects */
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    color: #35495e;
+}
+
+.project p {
+    color: #555;
+}
+
+/* Styling for contact */
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-details a {
+    color: #35495e;
+    text-decoration: none;
+}
+
+/* Additional styling for specific sections */
+/* Customize and add more styles as needed */
